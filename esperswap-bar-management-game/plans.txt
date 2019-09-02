@@ -1,0 +1,20 @@
+GAME:
+-match 3 system that adds to player money and takes it away every turn for repairs
+-limited time to freely move pieces
+-vendors have special skills that change the way a field plays, they also serve drinks
+
+//CODESTUFF:
+-A timer initiates upon player input (Puzzlestuck style), lasting about 4-5 seconds, with a HUD element to match. (use a bool to determine whether or not the timer is running and a unique set of timer specific functions, reduce the timer in the milisecond frame-by-frame function, hud element is drawn inside the same function but a seperate function is used, relegate grid drawing and level generation to seperate functions as well, for convenience's sake.
+-An enemy health system is implemented, that reduces upon drinks matched, when reduced to 0, the player recieves payment.
+-add a tile clear function that identifies clusters and removes all "hotpink" tiles
+-a combo variable that steps up every sucessfull drink serving, ramping up the price of service and enemy healthbars alongside a "level" variable that the player can change on the map screen
+-combo system that makes drink reduction easier with more matches made
+
+HOMEPAGE:
+-choose the location of your bar, cosmetics matching the location will earn more cash
+-locations attract different customers
+-they also have different gimmicks
+-areas respond differently to any kind of bar, not just a certain theme
+-customize the appearance of your bar during gameplay
+STORE:
+-place to hire staff and shop cosmetics

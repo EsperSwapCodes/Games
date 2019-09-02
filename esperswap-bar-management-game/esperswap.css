@@ -1,0 +1,93 @@
+.titlescreen {
+	padding:100px;
+	color:white;
+	background-color:black;
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	height:71%;
+	font-family: 'Livvic', sans-serif;
+	opacity: 0.8;
+}
+.titlescreenbody {
+	background-image: url("titlescreenbackground.png");
+	background-size: cover;
+}
+a.titlescreenlink {
+	border: 2px solid white;
+	border-radius: 12px;
+	color: white;
+	padding: 7px 12.5px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	margin:35;
+}
+.pagebody {
+	margin-left:200px;
+	display: inline-block;
+}
+
+.lefthandsidemenu {
+	margin:0;
+	height:100%;
+	width:200px;
+	position:absolute;
+	left:0;
+	top:0;
+	background-color:black;
+	display:inline-block;
+}
+.leftmenulink {
+	border: 2px solid white;
+	border-radius: 12px;
+	color: white;
+	padding: 7px 7px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	margin-top:50;
+	margin-left:10;
+	width:150;
+}
+a:hover {
+	opacity: 0.5;
+}
+p {
+	color:white;
+}
+.shoptable {
+	font-family: arial, sans-serif;
+	border-collapse: collapse;
+	width: 300px;
+	color:black;
+}
+hr {
+	width:250%;
+}
+.shopbutton {
+	border: 2px solid black;
+	border-radius: 12px;
+	background-color:black;
+	color:white;
+	width:80px;
+}
+.shopbutton:hover {
+	background-color:white;
+	color:black;
+}
+.gamecanvas {
+	border: 2px solid black;
+	border-radius: 12px;
+	position:absolute;
+	display:inline-block;
+	right:150;
+	top:100;
+}
+body {
+	color:black;
+	font-family: 'Livvic', sans-serif;
+}

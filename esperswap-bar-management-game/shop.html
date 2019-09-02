@@ -1,0 +1,31 @@
+<html>
+<head>
+<title>EsperSwap's Bar Management Game</title>
+<link rel="shortcut icon" href="icon.png">
+<link rel="stylesheet" type="text/css" href="esperswap.css">
+<link href="https://fonts.googleapis.com/css?family=Livvic&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="lefthandsidemenu">
+<a class="leftmenulink" href="shop.html">Hire & Shop</a>
+<br>
+<a class="leftmenulink" href="game.html">Serve Customers</a>
+<br>
+<a class="leftmenulink" href="homepage.html">Customize Bar</a>
+<br>
+</div>
+<div class=pagebody>
+<canvas onclick="getMoney()" width=100; height=100 id="moneyCounter"></canvas>
+<h1>Furniture:</h1>
+<hr>
+<table class="shoptable">
+<tr id="item0">
+    <td>0.</td>
+    <td>Ruined Bar Stool</td>
+	<td><button onclick="changeMoney(0,150)" class="shopbutton">Buy</button></td>
+ </tr>
+</table>
+</div>
+<script src="barmanagementgame.js"></script>
+</body>
+</html>
